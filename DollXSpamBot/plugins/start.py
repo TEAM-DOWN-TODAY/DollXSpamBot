@@ -5,16 +5,16 @@ from telethon import events, Button
 from telethon.tl.custom import button
 from DollXSpamBot import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9, ALIVE_PIC, OWNER_ID, OWNER_NAME
 
-DEADLY_IMG = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/f8d63b1dc5676fc9988f1.jpg"
+DEADLY_IMG = ALIVE_PIC if ALIVE_PIC else "https://graph.org/file/6729f85da314e31c91b33.jpg"
 
 
 Deadly_Button = [
         [
-        Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/Dollx_spambot"),
-        Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/DollxSpam_BOT")
+        Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/dragondpworld"),
+        Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/shadowfightersop")
         ],
         [
-        Button.url("• Rᴇᴘᴏ •", "https://github.com/dominator454/DollXSpamBot")
+        Button.url("• Rᴇᴘᴏ •", "https://t.me/its_Aryaan")
         ]
         ]
         
@@ -38,10 +38,10 @@ async def start(e):
         user_id = e.sender_id
         mention = f"[{name}](tg://user?id={user_id})"
         myOwner = f"[{OWNER_NAME}](tg://user?id={OWNER_ID})"
-        creator = f"[𝓓𝓞𝓛𝓛](https://t.me/N1xDOLL)"
+        creator = f"[ʀᴇᴘᴏ ᴇᴅɪᴛᴏʀ](https://t.me/its_Aryaan)"
         DEADLY_ON = f"""
 ʜᴇʏ {mention},
-ᴛʜɪs ɪs ᴅᴏʟʟXsᴘᴀᴍʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ:- {creator}!
+ᴛʜɪs ɪs ᴅʀᴇɢᴏɴXsᴘᴀᴍʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ:- {creator}!
 
 ᴛʜɪs ʙᴏᴛ ᴏᴡɴᴇʀ:- {myOwner}
 
