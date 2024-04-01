@@ -5,11 +5,11 @@ from time import time
 from datetime import datetime
 from DollXSpamBot import CMD_HNDLR as hl
     
-HELP_PIC = "https://telegra.ph/file/f8d63b1dc5676fc9988f1.jpg"
+HELP_PIC = "https://graph.org/file/6729f85da314e31c91b33.jpg"
 
-DEAD_Help = "🔥 𝘿𝙤𝙡𝙡 ✘ 𝙎𝙥𝙖𝙢 𝘽𝙤𝙩 🔥\n\n"
+DEAD_Help = "🔥 𝘿𝙧𝙚𝙜𝙤𝙣 ✘ 𝙎𝙥𝙖𝙢 𝘽𝙤𝙩 🔥\n\n"
  
-DEAD_Help += f"__ᴄᴍɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴅᴏʟʟ ✘ sᴘᴀᴍ ʙᴏᴛ__\n\n"
+DEAD_Help += f"__ᴄᴍɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴅʀᴇɢᴏɴ ✘ sᴘᴀᴍ ʙᴏᴛ__\n\n"
 
 DEAD_Help += f" ↧ 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙲𝙼𝙳𝚂 ↧\n\n"
 
@@ -25,7 +25,7 @@ DEAD_Help += f" `!raid` - to raid\n `!replyraid` - to active reply raid\n `!drep
 
 DEAD_Help += f" !pornspam - ɪ ᴡɪʟʟ ꜱᴜɢɢᴇꜱᴛ ᴅᴏɴ'ᴛ ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ😂 ↧\n\n"
 
-DEAD_Help += f"© @Dollx_spambot\n"
+DEAD_Help += f"© @thecchub\n"
 
 
 @BOT0.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
@@ -36,7 +36,7 @@ async def help(event):
                                   caption=DEAD_Help,
                                   buttons=[
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/Dollx_spambot")
+        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/dragondpworld")
         ] 
         ]
         )
